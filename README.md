@@ -24,6 +24,6 @@ var renderHits = function() {
 }
 
 var resetHits = function() {
-  hits = 0;
+  hits = 1;
   renderHits();
   }
