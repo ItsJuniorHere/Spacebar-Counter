@@ -6,7 +6,7 @@ Basically, you just click spacebar and you count it and I prefer click for 1 min
   <a href="#" onclick="resetHits()" class="tryagain">RESTART</a>
 		</div>
 
-  var hits = 0;
+  var hits = 1;
 var hitElement = document.querySelector( '.hits' );
 document.body.onkeyup = function(e) {
   if( e.keyCode == 32 ) {
